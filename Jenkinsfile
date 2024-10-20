@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/dila-liyanage/maven-web-app.git'
+                git branch: 'main', url: 'https://github.com/dila-liyanage/web-maven-app.git'
             }
         }
         stage('Build') {
